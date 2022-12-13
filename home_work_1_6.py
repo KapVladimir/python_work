@@ -22,6 +22,6 @@ number = 1
 sum_km = my_day
 while sum_km <= my_km:
     number += 1
-    sum_km = sum_km + sum_km * 0.1
+    sum_km *= 1.1
     print(f"{number}-й день: {round(sum_km, 2)}")
 print(f"Ответ: на {number}-й день будет достигнуто - не менее {my_km} км")
